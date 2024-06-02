@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'poppins' , sans-serif;
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container {
+    margin: 0%;
+    padding: 0%;
+}
+
+.container .prog {
+    width: 100%;
+    height: 100vh auto;
+    background-color: rgb(228, 238, 241);
+
+}
+.container .prog .log1 {
+    width: 100%;
+   padding: 30px;
+   display: flex;
+   position: relative;
+
+}
+.container .prog .log1 img{
+    display: flex;
+    position: absolute;
+    left: 80%;
+    transform: translate(-80%);
+
+}
+.container .prog .log2{
+    width: 100%;
+    margin-top: 20px;
+
+}
+.container .prog .log2 img{
+    display: block;
+    margin-left: 10%;
+    margin-right: 90%;
+    width: 10%;
+}
+.container .prog .txt{
+    width: 100%;
+    margin: 20px 20px;
+    color: rgb(62, 170, 170);
+    text-align: center;
+}
+.container .prog .txt > h1{
+    font-style: italic;
+    font-size: 3.2rem;
+}
+.container .prog .txt h2{
+     font-size: 2.5rem;
+     font-weight: 200;
+}
+.container .prog .txt h2::before{
+    content: 'A pro';
+    text-decoration: underline;
+}
+.container .prog .log{
+    width: 100%;
+   
+}
+.container .prog .log img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+}
+
+.container .prof {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    transform: translate(-50, 50%);
+    height: 500vh;
+}
+
+.container .prof .egw {
+    width: 100%;
+    height: 100vh;
+    margin-top: 10vh;
+}
+.container .prof .egw img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
