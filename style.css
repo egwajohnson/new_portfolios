@@ -3,7 +3,7 @@
 *{
     font-family: 'poppins' , sans-serif;
     margin: 0;
-    padding: 0%;
+    padding: 0;
     box-sizing: border-box;
 }
 body {
@@ -11,8 +11,8 @@ body {
     padding: 0;
 }
 .container {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
 
 .container .prog {
@@ -202,7 +202,7 @@ hr{
 .container .gal .photos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: stretch;
   }
   .container .gal .photos .photo{
@@ -267,26 +267,42 @@ hr{
    background-color: yellowgreen;
 
   }
-  .container .footer {
-    padding: 25px 40px;
+  .container .footer{
     width: 100%;
-    margin: 0 auto;
-    display: flex;
-    background-color: rgb(27, 161, 161);
+    height: 40% auto;
+    background-color: rgb(39, 172, 172);
   }
-  .container .footer ul{
-    background-color: red;
-    width: 100%;
+  .container .footer .ul{
+    width: 50%;
+    margin: 15px;
     display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
     align-items: center;
   }
-  .container .footer ul li{
+  .container .footer .ul ul{
     width: 100%;
-    text-decoration: none;
-    list-style-type: none;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .container .footer ul li a{
+  .container .footer .ul ul li{
+    list-style-type: none;
+    padding: 15px;
+  }
+  .container .footer .ul ul a{
     text-decoration: none;
+    text-align: center;
+  }
+  .container .footer .copy{
+    width: 100%;
+  }
+  .container .footer .copy p{
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 25px;
   }
  
 
